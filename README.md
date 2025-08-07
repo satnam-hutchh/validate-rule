@@ -1,2 +1,2 @@
-# validate-rule
-Validate Rule for Email or Phone
+# verification-rule
+Verification Rule for Email or Phone
