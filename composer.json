@@ -1,5 +1,5 @@
 {
-    "name": "hutchh/validation-rule",
+    "name": "hutchh/verification-rule",
     "description": "Validation rule for email or phone verification",
     "type": "library",
     "require": {
