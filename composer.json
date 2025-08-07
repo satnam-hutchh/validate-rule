@@ -1,0 +1,21 @@
+{
+    "name": "hutchh/validation-rule",
+    "description": "Validation rule for email or phone verification",
+    "type": "library",
+    "require": {
+        "php": "^7.2 || ^8.3"
+    },
+    "license": "mit",
+    "autoload": {
+        "psr-4": {
+            "Hutchh\\ValidationRule\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "satnam singh",
+            "email": "satnam.singh@hutchh.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
