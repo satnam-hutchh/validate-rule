@@ -2,13 +2,15 @@
     "name": "hutchh/verification-rule",
     "description": "Validation rule for email or phone verification",
     "type": "library",
+    "version": "1.0.0",
     "require": {
-        "php": "^7.2 || ^8.3"
+        "php": "^7.2 || ^8.3",
+        "laravel/framework": "^12.0"
     },
     "license": "mit",
     "autoload": {
         "psr-4": {
-            "Hutchh\\ValidationRule\\": "src/"
+            "Hutchh\\VerificationRule\\": "src/"
         }
     },
     "authors": [
@@ -17,5 +19,16 @@
             "email": "satnam.singh@hutchh.com"
         }
     ],
-    "minimum-stability": "stable"
+    "minimum-stability": "stable",
+    "homepage":"https://www.hutchh.com.au",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Hutchh\\VerificationRule\\Providers\\VerificationRuleServiceProvider"
+            ],
+            "aliases": {
+                "Debugbar": "Hutchh\\VerificationRule\\Facades\\ManagerFacade"
+            }
+        }
+    }
 }
